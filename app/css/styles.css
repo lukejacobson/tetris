@@ -1,0 +1,49 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  font-size: xx-large;
+}
+
+#controls {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+
+}
+
+#controls > i {
+  padding: 10px;
+}
+
+#game_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.board {
+  position: relative;
+  background-color: white;
+
+}
+
+.row {
+  display: flex;
+  width: min-content;
+
+}
+
+.cell {
+  border: 1px solid black;
+}
+
+.cell.active {
+  background-color: red;
+}
